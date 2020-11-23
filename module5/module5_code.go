@@ -1,8 +1,9 @@
 package module5
 
-import "fmt"
-import "net/http"
-
+import (
+	"fmt"
+	"net/http"
+)
 
 // GetExampleDotCom uses the "net/http" package to send a GET request to example.com
 func GetExampleDotCom() {
